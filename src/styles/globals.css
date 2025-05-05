@@ -1,3 +1,5 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@source inline("text-green-700");
+@source inline("bg-green-50");
+@source inline("ring-green-600/20");
+@source inline("underline");

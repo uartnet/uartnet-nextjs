@@ -28,8 +28,7 @@ export const user = {
     },
     {
       name: "spawnai",
-      description:
-        "spawnai runs LLM-generated code in secure, fast-booting microVMs. Open source and purpose-built for AI workflows, it offers a lightweight SDK, full filesystem and network access, and flexible deployment across shared or self-hosted runners.",
+      description: `spawnai <span class="underline">runs LLM-generated code in secure, fast-booting microVMs</span>. Open source and purpose-built for AI workflows, it offers a lightweight SDK, full filesystem and network access, and flexible deployment across shared or self-hosted runners.`,
       href: "https://spawnai.dev",
       labels: ["WIP"],
     },
@@ -38,7 +37,7 @@ export const user = {
     {
       name: "web remote terminal",
       description:
-        "Simple, Secure Remote Terminal straight from Your Browser. Connect to any Linux, macOS, or Windows system with just a single command. Free. No account required. Powered by rstream.",
+        "Simple, secure remote terminal straight from your browser. Connect to any Linux, macOS, or Windows system with just a single command. Free. No account required. Powered by rstream.",
       href: "https://rstream.io/tools/webtty",
       labels: [],
     },

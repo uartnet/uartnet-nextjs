@@ -3,10 +3,13 @@
 import "@/styles/globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { site } from "@/config/site";
-import { IBM_Plex_Sans } from "next/font/google";
+import { Space_Grotesk } from "next/font/google";
 import type { Metadata } from "next";
 
-const font = IBM_Plex_Sans({ subsets: ["latin"], weight: "400" });
+const font = Space_Grotesk({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = site.metadata;
 

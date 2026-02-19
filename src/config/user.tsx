@@ -20,16 +20,16 @@ export const user = {
   },
   products: [
     {
-      name: "rstream",
+      name: "rstream tunnels",
       description:
         'rstream delivers <span class="underline">state-of-the-art networking solutions</span>, covering real-time connectivity and end-to-end zero-trust security. Designed to meet enterprise data sovereignty requirements, it provides secure, scalable access to otherwise unreachable online resources.',
       href: "https://rstream.io",
-      labels: ["WIP"],
+      labels: [],
     },
     {
-      name: "spawnai",
+      name: "rstream sandbox",
       description: `spawnai <span class="underline">runs LLM-generated code in secure, fast-booting microVMs</span>. Open source and purpose-built for AI workflows, it offers a lightweight SDK, full filesystem and network access, and flexible deployment across shared or self-hosted runners.`,
-      href: "https://spawnai.dev",
+      href: "https://rstream.io",
       labels: ["WIP"],
     },
   ],
@@ -37,24 +37,24 @@ export const user = {
     {
       name: "web remote terminal",
       description:
-        "Simple, secure remote terminal straight from your browser. Connect to any Linux, macOS, or Windows system with just a single command. Free. No account required. Powered by rstream.",
+        "Simple, secure remote terminal straight from your browser. Connect to any Linux, macOS, or Windows system with just a single command. Trusted by thousands of developers worldwide. Free. No account required. Powered by rstream tunnels.",
       href: "https://rstream.io/tools/webtty",
       labels: [],
     },
     {
       name: "share files from command-line",
       description:
-        'Share files directly from your terminal. Files are <span class="underline">end-to-end encrypted</span> and accessible via the download link. The download link expires after 24 hours. Transfer up to 1 GB. Free forever. No account required.',
+        "Share files directly from your terminal. Files are end-to-end encrypted and accessible via the download link. The download link expires after 24 hours. Transfer up to 1 GB. Free forever. No account required.",
       href: "https://rstream.io/tools/file-sharing",
       labels: [],
     },
-    {
-      name: "IP address lookup",
-      description:
-        "Find out your IP geo-location! No ads. No tracking. No cookies.",
-      href: "https://rstream.io/tools/ip-lookup",
-      labels: [],
-    },
+    // {
+    //   name: "IP address lookup",
+    //   description:
+    //     "Find out your IP geo-location! No ads. No tracking. No cookies.",
+    //   href: "https://rstream.io/tools/ip-lookup",
+    //   labels: [],
+    // },
     {
       name: "linux toolchains for cross-compilation",
       description:

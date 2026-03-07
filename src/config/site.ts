@@ -10,6 +10,7 @@ export const site: {
   metadata: Metadata;
 } = {
   metadata: {
+    metadataBase: new URL("https://uartnet.co"),
     title: title,
     description: description,
     authors: { name: "@uartnet", url: "https://x.com/uartnet" },

@@ -13,7 +13,7 @@ export const user = {
   name: "@uartnet",
   description: "software engineer",
   about:
-    "I'm @uartnet, a Software Engineer focused on product development and deeply passionate about networking. I strive to create tech solutions that enrich people's lives and improve connectivity.",
+    "I'm @uartnet, a Software Engineer focused on product development and deeply passionate about networking and infrastructure. I strive to create tech solutions that enrich people's lives and improve connectivity.",
   avatar: {
     src: "/uartnet.png",
     alt: "@uartnet",
@@ -37,7 +37,7 @@ export const user = {
     {
       name: "web remote terminal",
       description:
-        "Simple, secure remote terminal straight from your browser. Connect to any Linux, macOS, or Windows system with just a single command. Trusted by thousands of developers worldwide. Free. No account required. Powered by rstream tunnels.",
+        "Simple, secure remote terminal straight from your browser. Connect to any Linux, macOS, or Windows system with just a single command. Trusted by thousands of developers worldwide. Start with the account-free demo. Powered by rstream tunnels.",
       href: "https://rstream.io/tools/webtty",
       labels: [],
     },
@@ -46,6 +46,13 @@ export const user = {
       description:
         "Share files directly from your terminal. Files are end-to-end encrypted and accessible via the download link. The download link expires after 24 hours. Transfer up to 1 GB. Free forever. No account required.",
       href: "https://rstream.io/tools/file-sharing",
+      labels: [],
+    },
+    {
+      name: "free STUN/TURN Server",
+      description:
+        "Generate short-lived TURN credentials for testing and interoperability checks. Credentials are valid for one hour. Free forever. No account required.",
+      href: "https://rstream.io/tools/turn-server",
       labels: [],
     },
     // {

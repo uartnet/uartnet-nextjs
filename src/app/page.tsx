@@ -12,7 +12,24 @@ function About({ about }: { about: typeof user.about }) {
   return (
     <section>
       <h2 className="text-lg leading-none font-mono text-gray-900">about me</h2>
-      <p className="text-base leading-5 text-gray-600 pt-6">{about}</p>
+      <div className="flex flex-col space-y-4 pt-6">
+        {about.split("\n\n").map((paragraph, i) => (
+          <p key={i} className="text-base leading-5 text-gray-600">
+            {paragraph}
+          </p>
+        ))}
+      </div>
+    </section>
+  );
+}
+
+function Interests({ interests }: { interests: typeof user.interests }) {
+  return (
+    <section>
+      <h2 className="text-lg leading-none font-mono text-gray-900">
+        interests
+      </h2>
+      <p className="text-base leading-5 text-gray-600 pt-6">{interests}</p>
     </section>
   );
 }
@@ -122,6 +139,7 @@ export default function Page() {
         <main>
           <div className="flex flex-col space-y-16">
             <About about={user.about} />
+            <Interests interests={user.interests} />
             <Connect social={user.social} />
             <Products products={user.products} />
             <Tools tools={user.tools} />

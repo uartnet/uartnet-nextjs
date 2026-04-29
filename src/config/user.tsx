@@ -11,9 +11,11 @@ import type { FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
 
 export const user = {
   name: "@uartnet",
-  description: "software engineer",
+  description: "deep tech, telecom & AI infrastructure",
   about:
-    "I'm @uartnet, a Software Engineer focused on product development and deeply passionate about networking and infrastructure. I strive to create tech solutions that enrich people's lives and improve connectivity.",
+    "I'm @uartnet, a telecom and systems engineer with 10+ years of experience building deep tech products, including as CTO in startup environments.\n\nMy background is rooted in embedded systems, telecommunications, connectivity, and distributed systems, across a range of complex technical products. Lately, I've been especially interested in AI agents, automation, developer tools, and infrastructure for software systems that can become more autonomous, composable, and useful.\n\nSome of my past work resulted in patent filings around connectivity, autonomous systems, constrained path planning, and distributed processing.",
+  interests:
+    "AI agents · automation · developer tools · distributed systems · infrastructure · telecommunications · product engineering · technical strategy",
   avatar: {
     src: "/uartnet.png",
     alt: "@uartnet",

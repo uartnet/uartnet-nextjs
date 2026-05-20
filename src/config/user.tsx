@@ -12,6 +12,11 @@ import type { FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
 export const user = {
   name: "@uartnet",
   description: "software infrastructure, networking & AI tooling",
+  location: "France",
+  contact: {
+    email: "hello@rstream.io",
+    href: "mailto:hello@rstream.io",
+  },
   about:
     "I'm @uartnet. I build software systems for networking, automation, and infrastructure.\n\nMy work is focused on reliable connectivity, secure access, distributed systems, and tools that make infrastructure easier to use, deploy, and operate.\n\nLately, I've been exploring AI agents, automation, and developer workflows that make software systems more useful and easier to compose.",
   interests:

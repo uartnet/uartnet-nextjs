@@ -34,11 +34,23 @@ function Interests({ interests }: { interests: typeof user.interests }) {
   );
 }
 
-function Connect({ social }: { social: typeof user.social }) {
+function Connect({
+  contact,
+  social,
+}: {
+  contact: typeof user.contact;
+  social: typeof user.social;
+}) {
   return (
     <section>
       <h2 className="text-lg leading-none font-mono text-gray-900">connect</h2>
-      <ul role="list" className="flex flex-col space-y-8 pt-6">
+      <div className="flex flex-col gap-y-6 pt-6">
+        <a
+          href={contact.href}
+          className="text-base leading-5 font-mono underline underline-offset-2 text-gray-900"
+        >
+          {contact.email}
+        </a>
         <div className="flex items-center space-x-2 sm:space-x-4">
           {social.map((item) => (
             <a
@@ -53,7 +65,7 @@ function Connect({ social }: { social: typeof user.social }) {
             </a>
           ))}
         </div>
-      </ul>
+      </div>
     </section>
   );
 }
@@ -133,6 +145,9 @@ export default function Page() {
               <span className="text-base leading-5 text-gray-600">
                 {user.description}
               </span>
+              <span className="text-base leading-5 text-gray-600">
+                {user.location}
+              </span>
             </div>
           </div>
         </header>
@@ -140,7 +155,7 @@ export default function Page() {
           <div className="flex flex-col space-y-16">
             <About about={user.about} />
             <Interests interests={user.interests} />
-            <Connect social={user.social} />
+            <Connect contact={user.contact} social={user.social} />
             <Products products={user.products} />
             <Tools tools={user.tools} />
           </div>

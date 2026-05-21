@@ -21,6 +21,8 @@ export const user = {
     "I'm @uartnet. I build software systems for networking, automation, and infrastructure.\n\nMy work is focused on reliable connectivity, secure access, distributed systems, and tools that make infrastructure easier to use, deploy, and operate.\n\nLately, I've been exploring AI agents, automation, and developer workflows that make software systems more useful and easier to compose.",
   interests:
     "AI agents · automation · developer tools · distributed systems · infrastructure · networking · product engineering",
+  advisory:
+    "I work with companies, integrators, and technical teams on infrastructure architecture, deployment strategy, and product evaluation.\n\nThis includes rstream tunnels licensing, deployment support, integrator partnerships, secure access, networking workflows, and turning complex technical systems into practical product decisions.",
   avatar: {
     src: "/uartnet.png",
     alt: "@uartnet",

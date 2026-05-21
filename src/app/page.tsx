@@ -34,6 +34,23 @@ function Interests({ interests }: { interests: typeof user.interests }) {
   );
 }
 
+function Advisory({ advisory }: { advisory: typeof user.advisory }) {
+  return (
+    <section>
+      <h2 className="text-lg leading-none font-mono text-gray-900">
+        commercial & technical advisory
+      </h2>
+      <div className="flex flex-col space-y-4 pt-6">
+        {advisory.split("\n\n").map((paragraph, i) => (
+          <p key={i} className="text-base leading-5 text-gray-600">
+            {paragraph}
+          </p>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 function Connect({
   contact,
   social,
@@ -155,6 +172,7 @@ export default function Page() {
           <div className="flex flex-col space-y-16">
             <About about={user.about} />
             <Interests interests={user.interests} />
+            <Advisory advisory={user.advisory} />
             <Connect contact={user.contact} social={user.social} />
             <Products products={user.products} />
             <Tools tools={user.tools} />

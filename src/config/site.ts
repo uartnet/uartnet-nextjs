@@ -2,7 +2,7 @@
 
 import type { Metadata } from "next";
 
-const title: string = "@uartnet — software infrastructure, networking & AI tooling";
+const title: string = "@uartnet - software infrastructure, networking & AI tooling";
 const description: string =
   "I build software systems for networking, automation, and infrastructure.";
 

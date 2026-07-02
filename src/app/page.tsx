@@ -92,7 +92,7 @@ function Articles({
   articles,
 }: {
   title: string;
-  articles: typeof user.products | typeof user.tools;
+  articles: typeof user.products;
 }) {
   return (
     <article>
@@ -138,10 +138,6 @@ function Products({ products }: { products: typeof user.products }) {
   return <Articles title="featured products" articles={products} />;
 }
 
-function Tools({ tools }: { tools: typeof user.tools }) {
-  return <Articles title="free tools" articles={tools} />;
-}
-
 export default function Page() {
   return (
     <main className="mx-auto max-w-3xl px-6 sm:px-8 lg:px-10">
@@ -175,7 +171,6 @@ export default function Page() {
             <Advisory advisory={user.advisory} />
             <Connect contact={user.contact} social={user.social} />
             <Products products={user.products} />
-            <Tools tools={user.tools} />
           </div>
         </main>
         <footer>

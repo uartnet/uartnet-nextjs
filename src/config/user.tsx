@@ -1,28 +1,23 @@
 // Licensed under the MIT License. See LICENSE file in the project root for full license information.
 
-import {
-  faGithub,
-  faXTwitter,
-  faReddit,
-  faProductHunt,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import type { FontAwesomeIconProps } from "@fortawesome/react-fontawesome";
 
 export const user = {
   name: "@uartnet",
-  description: "software infrastructure, networking & AI tooling",
+  description: "networking, cybersecurity, and infrastructure",
   location: "France",
   contact: {
     email: "hello@rstream.io",
     href: "mailto:hello@rstream.io",
   },
   about:
-    "I'm @uartnet. I build software systems for networking, automation, and infrastructure.\n\nMy work is focused on reliable connectivity, secure access, distributed systems, and tools that make infrastructure easier to use, deploy, and operate.\n\nLately, I've been exploring AI agents, automation, and developer workflows that make software systems more useful and easier to compose.",
+    "I'm @uartnet. I build software infrastructure for private networks, remote systems, and agent-driven infrastructure.\n\nMy work is focused on networking, cybersecurity, distributed systems, embedded software, secure access, and software that makes infrastructure easier to deploy, operate, and inspect.\n\nI am currently building rstream, a secure networking stack for private systems, remote access, WebTTY, realtime workloads, and AI agent workflows.",
   interests:
-    "AI agents · automation · developer tools · distributed systems · infrastructure · networking · product engineering",
+    "network protocols · cybersecurity · secure access · distributed systems · embedded infrastructure · AI agents · product engineering",
   advisory:
-    "I work with companies, integrators, and technical teams on infrastructure architecture, deployment strategy, and product evaluation.\n\nThis includes rstream tunnels licensing, deployment support, integrator partnerships, secure access, networking workflows, and turning complex technical systems into practical product decisions.",
+    "I work with technical teams, integrators, and infrastructure operators on secure connectivity, private access, deployment architecture, cybersecurity posture, and product strategy.\n\nThis includes rstream licensing, enterprise deployments, integrator partnerships, technical onboarding, secure access architecture, and the evaluation of networking, cybersecurity, or infrastructure systems that need to become reliable product surfaces.",
   avatar: {
     src: "/uartnet.png",
     alt: "@uartnet",
@@ -31,51 +26,8 @@ export const user = {
     {
       name: "rstream tunnels",
       description:
-        'rstream delivers <span class="underline">state-of-the-art networking solutions</span>, covering real-time connectivity and end-to-end zero-trust security. Designed to meet enterprise data sovereignty requirements, it provides secure, scalable access to otherwise unreachable online resources.',
+        'Secure networking infrastructure for private systems, remote machines, devices, WebTTY, realtime applications, and agent-driven operations. Built around <span class="underline">controlled connectivity, protocol breadth, zero-trust security, cryptographic protection, and production-grade runtime behavior.</span>',
       href: "https://rstream.io",
-      labels: [],
-    },
-    {
-      name: "rstream sandbox",
-      description: `spawnai <span class="underline">runs LLM-generated code in secure, fast-booting microVMs</span>. Open source and purpose-built for AI workflows, it offers a lightweight SDK, full filesystem and network access, and flexible deployment across shared or self-hosted runners.`,
-      href: "https://rstream.io",
-      labels: ["WIP"],
-    },
-  ],
-  tools: [
-    {
-      name: "web remote terminal",
-      description:
-        "Simple, secure remote terminal straight from your browser. Connect to any Linux, macOS, or Windows system with just a single command. Trusted by thousands of developers worldwide. Start with the account-free demo. Powered by rstream tunnels.",
-      href: "https://rstream.io/tools/webtty",
-      labels: [],
-    },
-    {
-      name: "share files from command-line",
-      description:
-        "Share files directly from your terminal. Files are end-to-end encrypted and accessible via the download link. The download link expires after 24 hours. Transfer up to 1 GB. Free forever. No account required.",
-      href: "https://rstream.io/tools/file-sharing",
-      labels: [],
-    },
-    {
-      name: "free STUN/TURN Server",
-      description:
-        "Generate short-lived TURN credentials for testing and interoperability checks. Credentials are valid for one hour. Free forever. No account required.",
-      href: "https://rstream.io/tools/turn-server",
-      labels: [],
-    },
-    // {
-    //   name: "IP address lookup",
-    //   description:
-    //     "Find out your IP geo-location! No ads. No tracking. No cookies.",
-    //   href: "https://rstream.io/tools/ip-lookup",
-    //   labels: [],
-    // },
-    {
-      name: "linux toolchains for cross-compilation",
-      description:
-        "Cross-compile software using our pre-built toolchains for Linux for a variety of architectures.",
-      href: "https://rstream.io/tools/linux-toolchains",
       labels: [],
     },
   ],
@@ -92,20 +44,6 @@ export const user = {
       href: "https://github.com/uartnet",
       icon: (props: Omit<FontAwesomeIconProps, "icon">) => (
         <FontAwesomeIcon {...props} icon={faGithub} />
-      ),
-    },
-    {
-      name: "product-hunt",
-      href: "https://www.producthunt.com/@uartnet",
-      icon: (props: Omit<FontAwesomeIconProps, "icon">) => (
-        <FontAwesomeIcon {...props} icon={faProductHunt} />
-      ),
-    },
-    {
-      name: "reddit",
-      href: "https://www.reddit.com/user/uartnet",
-      icon: (props: Omit<FontAwesomeIconProps, "icon">) => (
-        <FontAwesomeIcon {...props} icon={faReddit} />
       ),
     },
   ],

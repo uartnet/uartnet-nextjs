@@ -9,8 +9,8 @@ export const user = {
   description: "networking, cybersecurity, and infrastructure",
   location: "France",
   contact: {
-    email: "hello@rstream.io",
-    href: "mailto:hello@rstream.io",
+    email: "contact@uartnet.co",
+    href: "mailto:contact@uartnet.co",
   },
   about:
     "I'm @uartnet. I build software infrastructure for private networks, remote systems, and agent-driven infrastructure.\n\nMy work is focused on networking, cybersecurity, distributed systems, embedded software, secure access, and software that makes infrastructure easier to deploy, operate, and inspect.\n\nI am currently building rstream, a secure networking stack for private systems, remote access, WebTTY, realtime workloads, and AI agent workflows.",

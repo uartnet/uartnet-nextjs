@@ -13,11 +13,11 @@ export const user = {
     href: "mailto:contact@uartnet.co",
   },
   about:
-    "I'm @uartnet. I build software infrastructure for private networks, remote systems, and agent-driven infrastructure.\n\nMy work is focused on networking, cybersecurity, distributed systems, embedded software, secure access, and software that makes infrastructure easier to deploy, operate, and inspect.\n\nI am currently building rstream, a secure networking stack for private systems, remote access, WebTTY, realtime workloads, and AI agent workflows.",
+    "I build software for private networks and remote systems, making infrastructure easier to deploy, operate, and inspect.\n\nMy work spans distributed systems, embedded software, and infrastructure for AI agents. I'm currently building rstream.",
   interests:
-    "network protocols · cybersecurity · secure access · distributed systems · embedded infrastructure · AI agents · product engineering",
+    "network protocols · cybersecurity · secure access · AI agents · product engineering",
   advisory:
-    "I work with technical teams, integrators, and infrastructure operators on secure connectivity, private access, deployment architecture, cybersecurity posture, and product strategy.\n\nThis includes rstream licensing, enterprise deployments, integrator partnerships, technical onboarding, secure access architecture, and the evaluation of networking, cybersecurity, or infrastructure systems that need to become reliable product surfaces.",
+    "I help technical teams, integrators, and infrastructure operators with secure connectivity, private access, deployment architecture, cybersecurity posture, and product strategy.\n\nEngagements range from evaluating systems and turning them into reliable products to rstream licensing, enterprise deployments, integrator partnerships, and technical onboarding.",
   avatar: {
     src: "/uartnet.png",
     alt: "@uartnet",
@@ -26,7 +26,7 @@ export const user = {
     {
       name: "rstream tunnels",
       description:
-        'Secure networking infrastructure for private systems, remote machines, devices, WebTTY, realtime applications, and agent-driven operations. Built around <span class="underline">controlled connectivity, protocol breadth, zero-trust security, cryptographic protection, and production-grade runtime behavior.</span>',
+        'Connect private systems, remote machines, and devices for remote access, WebTTY, realtime applications, and AI agent workflows. <span class="underline">Controlled connectivity across protocols, with zero-trust security, cryptographic protection, and a runtime built for production.</span>',
       href: "https://rstream.io",
       labels: [],
     },

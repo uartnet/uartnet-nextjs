@@ -37,6 +37,12 @@ Your site should now be running on http://localhost:3000/.
 
 To personalize the website, navigate to the `src/config` folder and modify the configuration files as per your requirements.
 
+# Dependency maintenance
+
+ESLint stays on version 9 and TypeScript on version 6 to match the peer dependencies of the Next.js lint plugins. A scoped override updates `minimatch` for `@typescript-eslint/typescript-estree` to address [GHSA-g3hv-75wg-m249](https://github.com/advisories/GHSA-g3hv-75wg-m249); remove it once the upstream dependency includes a patched version.
+
+Run `npm run lint`, `npm run check-types`, `npm run build`, and `npm audit` after dependency updates.
+
 # Contributing
 
 Feel free to submit issues and enhancement requests.

@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 const title: string =
   "@uartnet - networking, cybersecurity, and infrastructure";
 const description: string =
-  "I build software infrastructure for private networks, remote systems, and agent-driven infrastructure.";
+  "I build software for private networks, remote systems, and AI agents, making infrastructure easier to deploy, operate, and inspect.";
 
 export const site: {
   metadata: Metadata;
